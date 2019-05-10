@@ -63,7 +63,7 @@ nav {
     border-radius: 200px;
 }
  
-.cont > div > a:hover {
+.active,.cont > div > a:hover {
      background-color: rgba(217, 216, 214, 0.24);
     color: rgb(221,221,221);
 }
