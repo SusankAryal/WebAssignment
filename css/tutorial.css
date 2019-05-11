@@ -229,15 +229,3 @@
 .grid6:hover .tut6{
     transform:translateY(-21%);
 }
-footer {
-    background-color:rgba(103, 96, 88, 0.52);
-    height: 36px;
-    width: 100%;
-    margin-top:42.7%;
-   
-}
-.footer_text{
-    text-align: center;
-    font-size: 16px;
-    color: rgb(221,221,221);
-}
