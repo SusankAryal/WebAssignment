@@ -1,8 +1,5 @@
 .gridbox{
-    position: absolute;
-    width: 1140px;
-    top:50%;
-    transform: translate(0%,-46%);
+    width:60%;
     margin-left: 3.5%;
     margin-top:0 %
 }
@@ -31,7 +28,7 @@
 }
 
 .img1{
-    height: 107.4%;
+    height: 105%;
     width: 100%;
     margin-top:-1.5%;
     border-radius: 2%;
@@ -154,11 +151,11 @@
     font-size: 18px;
     text-transform: capitalize;
 }
-
+/* source:https://www.udemy.com/css-animation-transitions-and-transforms-creativity-course*/
 .grid4:hover .cont4{
     transform:translateY(110%);
 }
-
+/*Sourece:https://www.udemy.com/css-animation-transitions-and-transforms-creativity-course*/
 .grid4:hover .img4{
     transform:translateY(-21%);
 }
@@ -222,23 +219,70 @@
     font-size: 18px;
     text-transform: capitalize;
 }
-
+/*https://www.udemy.com/css-animation-transitions-and-transforms-creativity-course*/
 .grid6:hover .cont6{
     transform:translateY(110%);
 }
-
+/*https://www.udemy.com/css-animation-transitions-and-transforms-creativity-course*/
 .grid6:hover .img6{
     transform:translateY(-21%);
 }
-footer {
-    background-color:rgba(103, 96, 88, 0.52);
-    height: 36px;
+
+footer{
+	display: flex;
+}
+
+.contact ul {
+	margin:0;
+	justify-content:space-around;
+}
+.contact ul li{
+	list-style: none;
+	margin: 0.5%;
+	 padding: 1%;
+}
+
+.contact ul li a{ 
+	text-decoration: none; 
+	color: black; 
+}
+
+.main-foot{
+	background: rgb(221,221,221);
+	width: 50%; 
+	text-align: center;
+	padding: 2%; 
+}
+.contact{
+	background: rgb(221,221,221);
+	width: 50%; 
+	text-align: center;
+	padding: 2%; 
+}
+
+.main-foot a{ 
+	text-decoration: none; 
+    color: black; }
+    
+@media screen and (max-width:650px){
+    img1{
+    height: 100%;
     width: 100%;
-    margin-top:42.7%;
-   
+    margin-top:-1.5%;
+    border-radius: 2%;
+    transition: all .5s;
 }
-.footer_text{
-    text-align: center;
-    font-size: 16px;
-    color: rgb(221,221,221);
 }
+
+
+/*Source: https://www.w3schools.com/css/tryit.asp?filename=trycss_grid_grid-template-rows*/
+.footer-grid >div {
+  background-color: black;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30spx;
+}
+
+
+
+

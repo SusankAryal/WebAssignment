@@ -21,7 +21,7 @@ body {
 }
 
 nav {
-    width: 100%;
+    width:60%;
     height: auto;
     margin: 0%
 }
@@ -29,6 +29,7 @@ nav {
 .main {
     display: flex;
     color: rgb(221,221,221);
+    width: 100%;
 }
 
 .logo {
@@ -40,7 +41,7 @@ nav {
     height: 150px;
     width: auto;
     margin-top: -15%;
-    margin-left: 100%;
+    margin-left: 80%;
 }
 
 .cont {
@@ -97,12 +98,78 @@ h1{
 }
 
 .textbox {
-    position: absolute;
-    width: 1140px;
-    top:50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    width: 100%;
+    padding-left: 30%;
+    color: rgb(221,221,221);
+    margin-right: 50%;
+    margin-top:15%;
+    
+}
+
+footer{
+	display: flex;
+   text-align: center;
+}
+
+.contact ul {
+	margin:0;
+	justify-content:space-around;
+}
+.contact ul li{
+	list-style: none;
+	margin: 0.5%;
+	 padding: 1%;
+}
+
+.contact ul li a{ 
+	text-decoration: none; 
+	color: black; 
+}
+
+.main-foot{
+	background: rgb(221,221,221);
+	width: 50%; 
+	text-align: center;
+	padding: 2%; 
+}
+
+.contact{
+	background: rgb(221,221,221);
+	width: 50%; 
+	text-align: center;
+	padding: 2%; 
+}
+
+.main-foot a{ 
+	text-decoration: none; 
+    color: black; }
+
+@media screen and (max-width:650px){
+    .textbox {
+    width: 90%;
+      transform: translate(50%,);
     color: rgb(221,221,221);
 }
 
+    .cont {
+    flex-direction: column;
+    margin-left: 50%;
+    margin-top: 2%;
+  
+}
+    .logo {
+    flex-direction: colume;
+    display: block;
+        margin-right: 5%
+}
+}
 
+
+
+.buttonF {
+    background-color: black;
+    border-radius: 200px;
+    width: 112%;
+    margin-top: 50px;
+    height: 100%;
+}

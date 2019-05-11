@@ -37,7 +37,7 @@ p {
 }
 
 .button {
-    margin-top: -1%;
+    margin-top: 1%;
     margin-left:60%;
     display: inline-block;
     padding: 8px 25px;
@@ -48,6 +48,7 @@ p {
     background-color: black;
     
 }
+
 
 a {
     text-decoration: none;
@@ -93,3 +94,37 @@ a:hover{
     padding-left: 1%;
     padding-right: 1%;
 }
+footer{
+	display: flex;
+}
+
+.contact ul {
+	margin:0;
+	justify-content:space-around;
+}
+.contact ul li{
+	list-style: none;
+	margin: 0.5%;
+	 padding: 1%;
+}
+
+.contact ul li a{ 
+	text-decoration: none; 
+	color: black; 
+}
+
+.main-foot{
+	background: rgb(221,221,221);
+	width: 50%; 
+	text-align: center;
+	padding: 2%; 
+}
+
+.contact{
+	background: rgb(221,221,221);
+	width: 50%; 
+	text-align: center;
+	padding: 2%; 
+}
+
+
