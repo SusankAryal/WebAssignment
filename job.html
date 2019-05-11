@@ -1,19 +1,14 @@
-<!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-        <link rel="stylesheet" type="text/css" href="css/job.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/job.css">
         <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,300italic' rel='stylesheet' type='text/css'>
         <title>Web Assignment</title>
-    </head> 
-    <body>
+    </head>
         <nav>
             <div class="main">
                 <div class="logo">
-                    <a href="index.html"><img src="img/logo.png" class="img-logo" alt="News Today Logo"></a> 
+                    <a href="index.html"><img src="img/logo.png" class="img-logo" alt="News Today Logo" href="index.html"></a> 
                 </div>
                 <div class="cont">
                     <div><a href="home.html">Home</a></div>
@@ -24,6 +19,7 @@
                 </div>
             </div>
         </nav>
+    <body>
         <div class="body-main">
             <div class="content">
                 <p id="form-tit">Fill Up the Form to Apply.</p>
@@ -43,20 +39,20 @@
                     <fieldset class="cont_inf">
                         <legend>Contact Info</legend>
                         <label>Country:</label>  
-                        <input type="text" name="country" maxlength="50" placeholder="country name"><br><br>
+                        <input type="text" name="countryname" maxlength="50" placeholder="country name"><br><br>
                         <label>Local Address :</label>  
-                        <input type="text" name="local-address" maxlength="50" placeholder="Local address" class="inp">
+                        <input type="text" name="localaddress" maxlength="50" placeholder="Local address" class="inp">
                         <br><br>
                         <label>Permanent Address:</label>
-                        <input type="Email" name="permanent address" placeholder="Permanent address"><br><br>
+                        <input type="text" name="permanentaddress" placeholder="Permanent address"><br><br>
 
                     </fieldset>
                     <fieldset class="purpose">
                         <legend>Purpose For applying</legend>
                         <label>What are you applying for:</label>  
-                        <input type="text" name="purpose-for-applying" maxlength="50" placeholder="Position you want to apply"><br><br>
+                        <input type="text" name="purpose" maxlength="50" placeholder="Position you want to apply"><br><br> 
                         <label>Current Job</label>  
-                        <input type="text" name="current-job" maxlength="50" placeholder="Tpye in your current job if none then type 'NONE'" class="inp">
+                        <input type="text" name="currentjob" maxlength="50" placeholder="Tpye in your current job if none then type 'NONE'" class="inp">
                         <br><br>
                         <label>Purpose:</label>  
                         <textarea class="text-are" cols="60" rows="10" placeholder="Please let us know what your purpose for applying is."></textarea><br><br>
