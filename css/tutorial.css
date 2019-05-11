@@ -36,6 +36,7 @@
     transition: all .5s;
 }
 
+/*
 .cont1{
     height: 30%;
     width: 100%;
@@ -58,6 +59,7 @@
 .grid1:hover .tut1{
     transform:translateY(-24.6%);
 }
+*/
 .tut2{
     height:120%;
     width: 100%;
