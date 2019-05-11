@@ -1,17 +1,17 @@
-.content { /*edited contents */
+.content {
   padding: 2%;
   font-size: 30px;
   color:rgb(221,221,221);
 }
 
-.form { /*form changes*/
+.form {
   padding-bottom: 4%;
     color:rgb(221,221,221);
     margin-left: 4%;
     margin-right: 4%;
 }
 
-form { /*form tag changes*/
+form {
   font-size: 20px;
     color:rgb(221,221,221);
 }
@@ -36,7 +36,9 @@ label {
 }
 
 input{
-    margin-left: 5%;
+    margin-left: 10%;
+    width: 500px;
+    height: 50px;
 }
 
 input[type=submit], input[type=reset]{
@@ -67,7 +69,11 @@ input[type=reset]:hover{
 input[type=submit]:hover{
     background-color: rgb(221,221,221);
     color: rgb(0,0,0);
+}
 
+textarea {
+    margin-left: 10%;
+    width: 500px;
 }
 
 .sub-res {
