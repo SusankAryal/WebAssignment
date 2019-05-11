@@ -15,7 +15,7 @@
   padding: 10px;
 }
 
-.grid1{/* first the big grid combined 3 row and columes*/ 
+.grid1{/* first the big grid combined 3 row and columns*/ 
     grid-column: 1/3;
     grid-row: 1/3;
     border-radius: 1px;
