@@ -51,13 +51,6 @@
     text-transform: capitalize;
 }
 
-.grid1:hover .cont1{
-    transform:translateY(11%);
-}
-
-.grid1:hover .tut1{
-    transform:translateY(-24.6%);
-}
 .tut2{
     height:120%;
     width: 100%;
@@ -82,14 +75,6 @@
 .cont2 p {
     font-size: 18px;
     text-transform: capitalize;
-}
-
-.grid2:hover .cont2{
-    transform:translateY(110%);
-}
-
-.grid2:hover .tut2{
-    transform:translateY(-21%);
 }
 
 .grid3{
