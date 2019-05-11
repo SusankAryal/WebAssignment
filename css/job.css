@@ -1,0 +1,102 @@
+.content {
+  padding: 2%;
+  font-size: 30px;
+  color:rgb(221,221,221);
+}
+
+.form {
+  padding-bottom: 4%;
+    color:rgb(221,221,221);
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+form {
+  font-size: 20px;
+    color:rgb(221,221,221);
+}
+
+legend {
+  font-weight: bold;
+  font-size: 25px;
+  font-style: italic;
+color:rgb(221,221,221);
+}
+
+label {
+  width: 150px;
+  display: inline-block;
+  font-weight: bold;
+    color:rgb(221,221,221);
+    padding-left: 2%
+}
+
+.cont_inf {
+    margin-top: 2%;
+}
+
+input{
+    margin-left: 5%;
+}
+
+input[type=submit], input[type=reset]{
+    color: rgb(221,221,221);
+    font-size: 16px;
+    width: 90px;
+    height: 35px;
+    border: 1px solid rgb(0,0,0);
+}
+
+input[type=submit]{
+    background-color: rgba(155, 119, 81,0.4);
+    border-radius: 2%;
+        border-radius: 40%
+}
+
+input[type=reset]{
+    opacity: 1;
+    color: rgb(0, 0, 0);
+    border-radius: 40%
+}
+
+input[type=reset]:hover{
+    background-color: rgba(155, 119, 81,0.5);
+    color: rgb(221,221,221);
+}
+
+input[type=submit]:hover{
+    background-color: rgb(221,221,221);
+    color: rgb(0,0,0);
+
+}
+
+.sub-res {
+    margin-top: 2%;
+}
+
+#form-tit {
+    padding-left: 2.2%;
+    font-size: 60px;
+    text-decoration: underline;
+}
+
+.purpose {
+    margin-top: 2%;
+}
+
+.body-main {
+    margin-top: -2%;
+}
+
+footer {
+    background-color:rgba(103, 96, 88, 0.52);
+    height: 36px;
+    width: 100%;
+    margin-top:1%;
+   
+}
+.footer_text{
+    text-align: center;
+    font-size: 16px;
+    color: rgb(221,221,221);
+}

@@ -1,0 +1,73 @@
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/job.css">
+        <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,300italic' rel='stylesheet' type='text/css'>
+        <title>Web Assignment</title>
+    </head>
+        <nav>
+            <div class="main">
+                <div class="logo">
+                    <a href="index.html"><img src="img/logo.png" class="img-logo" alt="News Today Logo" href="index.html"></a> 
+                </div>
+                <div class="cont">
+                    <div><a href="home.html">Home</a></div>
+                    <div><a href="#">Review</a></div>
+                    <div><a href="#">Glossary</a></div>
+                    <div><a href="job.html">Job</a></div>
+                    <div><a href="#">Tutorial</a></div>
+                </div>
+            </div>
+        </nav>
+    <body>
+        <div class="body-main">
+            <div class="content">
+                <p id="form-tit">Fill Up the Form to Apply.</p>
+            </div>
+            <div class="form">
+                <form action="#" method="post" onSubmit="return validateform(this)">
+                    <fieldset>
+                        <legend>Form</legend>
+                        <label>First Name :</label>  
+                        <input type="text" name="Firstname" maxlength="50" placeholder="Type your firstname"><br><br>
+                        <label>Last Name :</label>  
+                        <input type="text" name="Lastname" maxlength="50" placeholder="Type your lastname">
+                        <br><br>
+                        <label>Email :</label>
+                        <input type="Email" name="Email" placeholder="Type your Email"><br><br>
+                    </fieldset>
+                    <fieldset class="cont_inf">
+                        <legend>Contact Info</legend>
+                        <label>Country:</label>  
+                        <input type="text" name="Firstname" maxlength="50" placeholder="country name"><br><br>
+                        <label>Local Address :</label>  
+                        <input type="text" name="Lastname" maxlength="50" placeholder="Local address" class="inp">
+                        <br><br>
+                        <label>Permanent Address:</label>
+                        <input type="Email" name="permanent address" placeholder="Permanent address"><br><br>
+
+                    </fieldset>
+                    <fieldset class="purpose">
+                        <legend>Purpose For applying</legend>
+                        <label>What are you applying for:</label>  
+                        <input type="text" name="Firstname" maxlength="50" placeholder="country name"><br><br>
+                        <label>Local Address :</label>  
+                        <input type="text" name="Lastname" maxlength="50" placeholder="Local address" class="inp">
+                        <br><br>
+                        <label>Purpose:</label>  
+                        <textarea class="text-are" cols="60" rows="10" placeholder="Please let us know what your purpose for applying is."></textarea><br><br>
+                        <br><br>
+                    </fieldset>
+                    <div class="sub-res">
+                        <input class="butonA" type="submit" name="submit">
+                        <input class="butonB" type="reset" name="reset">
+                    </div>
+                </form>
+                <script src="js/js.js "></script>
+            </div>
+        </div>
+    </body>
+    <footer>
+        <div class="footer_text">©Susank Aryal Design and Co.</div>
+    </footer>
+</html>
