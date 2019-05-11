@@ -11,23 +11,23 @@ function validateform(fm){
 		alert("Please enter your Email.");
 		return false;
     }
-    if (fm.country.value == "") {
+    if (fm.countryname.value == "") {
 		alert("Please enter your country name.");
 		return false;
 	}
-	if (fm.local-address.value == "") {
+	if (fm.localaddress.value == "") {
 		alert("Please enter your Local Address.");
 		return false;
 	}
-	if (fm.permanent-address.value == "") {
+	if (fm.permanentaddress.value == "") {
 		alert("Please enter your Permanent address.");
 		return false;
 	}
-	if (fm.purpose-for-applying.value == "") {
+	if (fm.purpose.value == "") {
 		alert("Please enter what post you are applying for.");
 		return false;
 	}
-	if (fm.current-job.value == "") {
+	if (fm.currentjob.value == "") {
 		alert("Please type your current job if none then type 'NONE'");
 		return false;
 	}
