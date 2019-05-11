@@ -1,10 +1,10 @@
-*{
+*{/*applying basic for all the elements*/
     margin:0;
     padding: 0;
     box-sizing: border-box;
 }
 
-html{
+html{ /*change in the parent tag*/
     color:#444;
     font-family:'Lato', 'Arial', sans-serif;
     font-weight: 300;
@@ -12,39 +12,39 @@ html{
     text-rendering: optimizeLegibility;  
 }
 
-body {
+body { /*body changes here reference: https://www.udemy.com/design-and-develop-a-killer-website-with-html5-and-css3/ */
     background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(img/background.jpg);
     background-size: cover;
-    background-position: center;
-    background-position: fixed;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     height: 100vh;
 }
 
-nav {
+nav {/*Navigation section code here*/
     width:60%;
     height: auto;
     margin: 0%
 }
 
-.main {
+.main {/*main flex here*/
     display: flex;
     color: rgb(221,221,221);
     width: 100%;
 }
 
-.logo {
+.logo { /*logo costumized*/
     flex-direction: column;
     display: block;
 }
 
-.img-logo {
+.img-logo { /*logo size costumized*/
     height: 150px;
     width: auto;
     margin-top: -15%;
     margin-left: 80%;
 }
 
-.cont {
+.cont {/*content defined*/
     display: flex;
     margin-left: 50%;
     margin-top: 2%;
@@ -64,7 +64,7 @@ nav {
     border-radius: 200px;
 }
  
-.active,.cont > div > a:hover {
+.active,.cont > div > a:hover { /*content hover*/
      background-color: rgba(217, 216, 214, 0.24);
     color: rgb(221,221,221);
 }
@@ -75,7 +75,7 @@ h1{
     margin-bottom:15px;
 }
 
-.button{
+.button{ /*Reference:https://www.udemy.com/design-and-develop-a-killer-website-with-html5-and-css3/*/
     display: inline-block;
     padding: 8px 25px;
     text-decoration: none;
@@ -84,7 +84,7 @@ h1{
     color: rgb(221,221,221);
 }
 
-.buttonA{
+.buttonA{/*Reference:https://www.udemy.com/design-and-develop-a-killer-website-with-html5-and-css3/*/
      background-color: rgba(155, 119, 81,0.4);
      border: 1px solid #333;
 }
@@ -110,7 +110,7 @@ footer{
 	display: flex;
    text-align: center;
 }
-
+/*created a footer*/
 .contact ul {
 	margin:0;
 	justify-content:space-around;
@@ -144,7 +144,7 @@ footer{
 	text-decoration: none; 
     color: black; }
 
-@media screen and (max-width:650px){
+@media screen and (max-width:650px){/*Responsive site*/
     .textbox {
     width: 90%;
       transform: translate(50%,);

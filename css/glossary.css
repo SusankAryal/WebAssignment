@@ -16,7 +16,7 @@
     
 }
 
-.nav {
+.nav { /*navigation code */
     width: 500px;
     height: 180px;
     background-color: rgb(193, 191, 191);
@@ -26,17 +26,17 @@
     padding-right: 1%;
 }
 
-h2 {
+h2 { /*changing all h2 elements */
     margin-bottom: 1%;
     text-decoration: underline;
 }
 
-p {
+p { /*changing all p elements */
     font-size: 16px;
     font-weight: 400;
 }
 
-.button {
+.button { /*button for home page*/
     margin-top: 1%;
     margin-left:60%;
     display: inline-block;
@@ -55,13 +55,13 @@ a {
     color: rgb(221,221,221);
 }
 
-a:hover{
+a:hover{ /*hover effect*/
     
     color: rgb(221,221,221);
     
 }
 
-.button:hover{
+.button:hover{ /*hover effect on the button*/
         background-color: rgba(155, 119, 81,0.5);
         color: rgb(221,221,221);
     
@@ -85,7 +85,7 @@ a:hover{
     
 }
 
-.gridA {
+.gridA { /*created grid*/
      width: 500px;
     height: 180px;
     background-color: rgb(193, 191, 191);
@@ -94,33 +94,34 @@ a:hover{
     padding-left: 1%;
     padding-right: 1%;
 }
+
 footer{
-	display: flex;
+	display: flex;/*footer is set to flex*/
 }
 
-.contact ul {
+.contact ul { /*code for the ul */
 	margin:0;
 	justify-content:space-around;
 }
-.contact ul li{
+.contact ul li{ /*liss-style none removing lyst style*/
 	list-style: none;
 	margin: 0.5%;
 	 padding: 1%;
 }
 
-.contact ul li a{ 
+.contact ul li a{   /*removing underline in hyperlink*/
 	text-decoration: none; 
 	color: black; 
 }
 
-.main-foot{
+.main-foot{ /*main footer part */
 	background: rgb(221,221,221);
 	width: 50%; 
 	text-align: center;
 	padding: 2%; 
 }
 
-.contact{
+.contact{ /*contact options*/
 	background: rgb(221,221,221);
 	width: 50%; 
 	text-align: center;

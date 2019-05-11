@@ -1,11 +1,10 @@
-.gridbox{
+.gridbox{ /*basic grid box creation*/
     width:60%;
     margin-left: 3.5%;
-    margin-top:0 %
+    margin-top:-1.5%
 }
 
-.grid {
-
+.grid {  /* main grid edit*/
   display: grid;
   grid-template-columns: 52% 52% 52%;
   grid-gap: 10px;
@@ -14,20 +13,20 @@
   margin-top: 0;
 }
 
-.grid1{
+.grid1{ /* first the big grid combined 3 row and columes*/ 
     grid-column: 1/3;
     grid-row: 1/3;
     border-radius: 1px;
     overflow: hidden;
 }
 
-.grid-text{
+.grid-text{ /*text inside the grid*/
   text-align: center;
   padding: 20px 0;
   font-size: 30px;
 }
 
-.img1{
+.img1{ /*first image*/
     height: 105%;
     width: 100%;
     margin-top:-1.5%;
@@ -35,7 +34,7 @@
     transition: all .5s;
 }
 
-.cont1{
+.cont1{ /*adding the delay time and the positon of the content*//*Sourece:https://www.udemy.com/css-animation-transitions-and-transforms-creativity-course*/
     height: 30%;
     width: 100%;
     background-color:black;
@@ -50,11 +49,11 @@
     text-transform: capitalize;
 }
 
-.grid1:hover .cont1{
-    transform:translateY(100%);
+.grid1:hover .cont1{ /*hover change*/
+    transform:translateY(45%);
 }
 
-.grid1:hover .img1{
+.grid1:hover .img1{ /*image moves up when hovered and the text comes in*/
     transform:translateY(-24.6%);
 }
 
@@ -69,7 +68,7 @@
     transition: all .5s;
 }
 
-.cont2{
+.cont2{/*Sourece:https://www.udemy.com/css-animation-transitions-and-transforms-creativity-course*/
     height: 30%;
     width: 100%;
     background-color:black;
@@ -85,11 +84,11 @@
 }
 
 .grid2:hover .cont2{
-    transform:translateY(110%);
+    transform:translateY(20%);/*Sourece:https://www.udemy.com/css-animation-transitions-and-transforms-creativity-course*/
 }
 
 .grid2:hover .img2{
-    transform:translateY(-21%);
+    transform:translateY(-21%);/*Sourece:https://www.udemy.com/css-animation-transitions-and-transforms-creativity-course*/
 }
 
 .grid3{
@@ -102,7 +101,7 @@
     margin-top: -5%;
     transition: all .5s;
 }
-
+/*Sourece:https://www.udemy.com/css-animation-transitions-and-transforms-creativity-course*/
 .cont3{
     height: 30%;
     width: 100%;
@@ -119,7 +118,7 @@
 }
 
 .grid3:hover .cont3{
-    transform:translateY(110%);
+    transform:translateY(20%);
 }
 
 .grid3:hover .img3{
@@ -137,7 +136,7 @@
     transition: all.5s;
 }
 
-.cont4{
+.cont4{/*Sourece:https://www.udemy.com/css-animation-transitions-and-transforms-creativity-course*/
     height: 30%;
     width: 100%;
     background-color:black;
@@ -153,7 +152,7 @@
 }
 /* source:https://www.udemy.com/css-animation-transitions-and-transforms-creativity-course*/
 .grid4:hover .cont4{
-    transform:translateY(110%);
+    transform:translateY(20%);
 }
 /*Sourece:https://www.udemy.com/css-animation-transitions-and-transforms-creativity-course*/
 .grid4:hover .img4{
@@ -187,7 +186,7 @@
 }
 
 .grid5:hover .cont5{
-    transform:translateY(110%);
+    transform:translateY(20%);
 }
 
 .grid5:hover .img5{
@@ -221,7 +220,7 @@
 }
 /*https://www.udemy.com/css-animation-transitions-and-transforms-creativity-course*/
 .grid6:hover .cont6{
-    transform:translateY(110%);
+    transform:translateY(7%);
 }
 /*https://www.udemy.com/css-animation-transitions-and-transforms-creativity-course*/
 .grid6:hover .img6{

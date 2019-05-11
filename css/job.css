@@ -1,17 +1,17 @@
-.content {
+.content { /*edited contents */
   padding: 2%;
   font-size: 30px;
   color:rgb(221,221,221);
 }
 
-.form {
+.form { /*form changes*/
   padding-bottom: 4%;
     color:rgb(221,221,221);
     margin-left: 4%;
     margin-right: 4%;
 }
 
-form {
+form { /*form tag changes*/
   font-size: 20px;
     color:rgb(221,221,221);
 }
