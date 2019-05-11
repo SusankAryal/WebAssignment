@@ -3,8 +3,7 @@
     width: 1140px;
     top:50%;
     transform: translate(0%,-46%);
-    margin-left: 3.5%;
-    margin-top:0 %
+    margin-left: 3%;
 }
 
 .grid {
@@ -14,7 +13,6 @@
   grid-gap: 10px;
   grid-template-rows: 300px 250px 250px;
   padding: 10px;
-  margin-top: 0;
 }
 
 .grid1{
@@ -30,7 +28,7 @@
   font-size: 30px;
 }
 
-.img1{
+.tut1{
     height: 107.4%;
     width: 100%;
     margin-top:-1.5%;
@@ -57,19 +55,18 @@
     transform:translateY(100%);
 }
 
-.grid1:hover .img1{
+.grid1:hover .tut1{
     transform:translateY(-24.6%);
 }
-
-.grid2{
-    overflow: hidden;
-}
-
-.img2{
+.tut2{
     height:120%;
     width: 100%;
     margin-top: -5%;
     transition: all .5s;
+}
+
+.grid2{
+    overflow: hidden
 }
 
 .cont2{
@@ -91,7 +88,7 @@
     transform:translateY(110%);
 }
 
-.grid2:hover .img2{
+.grid2:hover .tut2{
     transform:translateY(-21%);
 }
 
@@ -99,7 +96,7 @@
     overflow: hidden;
 }
 
-.img3{
+.tut3{
     height:124%;
     width: 100%;
     margin-top: -5%;
@@ -125,7 +122,7 @@
     transform:translateY(110%);
 }
 
-.grid3:hover .img3{
+.grid3:hover .tut3{
     transform:translateY(-21%);
 }
 
@@ -133,11 +130,11 @@
     overflow: hidden;
 }
 
-.img4{
+.tut4{
     height:124.5%;
     width: 100%;
     margin-top: -5%;
-    transition: all.5s;
+    transition: all .5s;
 }
 
 .cont4{
@@ -159,7 +156,7 @@
     transform:translateY(110%);
 }
 
-.grid4:hover .img4{
+.grid4:hover .tut4{
     transform:translateY(-21%);
 }
 
@@ -167,7 +164,7 @@
     overflow: hidden;
 }
 
-.img5{
+.tut5{
     height:124.4%;
     width: 100%;
     margin-top: -5%;
@@ -193,7 +190,7 @@
     transform:translateY(110%);
 }
 
-.grid5:hover .img5{
+.grid5:hover .tut5{
     transform:translateY(-21%);
 }
 
@@ -201,7 +198,7 @@
     overflow: hidden;
 }
 
-.img6{
+.tut6{
     height:124.4%;
     width: 100%;
     margin-top: -5%;
@@ -227,7 +224,7 @@
     transform:translateY(110%);
 }
 
-.grid6:hover .img6{
+.grid6:hover .tut6{
     transform:translateY(-21%);
 }
 footer {
